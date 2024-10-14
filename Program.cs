@@ -13,16 +13,16 @@ public class Program
 
             // Get user input for each data type
             Console.Write("Enter an integer: ");
-            intValue = Convert.ToInt32(Console.ReadLine());
+            intValue = int.Parse(Console.ReadLine());
 
             Console.Write("Enter a float: ");
-            floatValue = Convert.ToSingle(Console.ReadLine());
+            floatValue = float.Parse(Console.ReadLine());
 
             Console.Write("Enter a double: ");
-            doubleValue = Convert.ToDouble(Console.ReadLine());
+            doubleValue = double.Parse(Console.ReadLine());
 
             Console.Write("Enter a long: ");
-            longValue = Convert.ToInt64(Console.ReadLine());
+            longValue = long.Parse(Console.ReadLine());
 
             Console.Write("Enter a string: ");
             stringValue = Console.ReadLine();
